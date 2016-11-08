@@ -18,6 +18,8 @@ public class DefaultDriver extends AbstractDriver {
 //        neuralNetwork = neuralNetwork.loadGenome();
     }
 
+    // Test new setup
+    
     private void initialize() {
         this.enableExtras(new AutomatedClutch());
         this.enableExtras(new AutomatedGearbox());
